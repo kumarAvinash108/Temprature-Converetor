@@ -1,0 +1,114 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #f8e7af;
+    display: grid;
+    place-items: center;
+}
+form{
+    border-radius: 200px;
+    font-size: 20px;
+    width: 650px;
+    height: 500px;
+    padding: 100px;
+    text-align: center;
+    align-items: center;
+    background-color: lightsalmon;
+}
+#temp{
+    
+    margin: 70px;
+    margin-top: 100px;
+    width: 150px;
+    font-size: 20px;
+    height: 50px;
+    text-align: center;
+}
+#resultContainer{
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: 100;
+}
+select{
+    height: 50px;
+    width: 70px;
+    font-size: 20px;
+    text-align: center;
+}
+#btn{
+    height:70px;
+    width: 100px;
+    font-size: 25px;
+}
+.dec{
+    border-radius: 100px;
+    height: 100px;
+    width: 650px;
+    background-color: lightsalmon;
+    margin-bottom: 0px;
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+    font-weight: 700;
+    font-family:cursive;
+    color: #fff;
+    
+}
+
+/*making website responsive*/
+@media only screen and (max-width: 600px){
+    form{
+        border-radius: 100px;
+    font-size: 20px;
+    width: 500px;
+    height: 400px;
+    padding: 100px;
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+    background-color: lightsalmon;
+    }
+    #temp{
+    
+        margin: 20px;
+        margin-top: 20px;
+        width: 100px;
+        font-size: 15px;
+        height: 40px;
+        text-align: center;
+    }
+    select{
+        height: 30px;
+        width: 50px;
+        font-size: 15px;
+        text-align: center;
+    }
+    .dec{
+        border-radius: 100px;
+        height: 100px;
+        width: 500px;
+        background-color: lightsalmon;
+        margin-bottom: 0px;
+        text-align: center;
+        padding: 30px;
+        font-size: 25px;
+        font-weight: 300;
+        font-family:cursive;
+        color: #fff;
+        
+    }
+    #btn{
+        height:50px;
+        width: 100px;
+        font-size: 20px;
+    }
+}
